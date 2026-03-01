@@ -225,14 +225,41 @@ svg {
     background-color: white;
     border-radius: 10px;
     border-left: 5px solid orange;
-    padding: 25px;
+    padding: 30px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: rgb(105, 105, 105);
+    line-height: 1.3rem;
+}
+
+.cards span {
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: black;
 }
 
 .announcements, .trending {
     background-color: white;
-    padding: 30px;
+    padding: 15px 30px;
     border-radius: 10px;
-    min-width: 300px;
+    min-width: 275px;
+}
+
+.announcements p, .trending p {
+    font-size: 0.7rem;
+    padding: 15px 0px;
+    color: rgb(105, 105, 105);
+}
+
+#middle {
+    border-top: 1px solid rgb(187, 187, 187);
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.announcements span, .trending span {
+    font-size: 0.9rem;
+    font-weight: 900;
+    color: black;
 }
 
 .side-content {
