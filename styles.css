@@ -230,6 +230,8 @@ svg {
     font-weight: 100;
     color: rgb(105, 105, 105);
     line-height: 1.3rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .cards span {
@@ -275,4 +277,15 @@ svg {
 
 h2 {
     font-size: 1.2rem;
+}
+
+.cards svg {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.cards div {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
 }
