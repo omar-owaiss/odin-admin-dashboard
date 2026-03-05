@@ -309,3 +309,22 @@ h1 {
     width: 35ch;
  }
 
+label {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.search-text {
+    font-size: 0.1px;
+    margin-left: -5px;
+    white-space: nowrap;
+    max-width: 0;
+    overflow: hidden;
+    transition: max-width 0.3s ease;
+}
+
+label:hover .search-text {
+    max-width: 100px;
+}
